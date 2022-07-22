@@ -15,12 +15,12 @@ abstract class Plane {
 		System.out.println("Preparing to takeoff");
 		System.out.println("Flying... Whoooshh!");
 	}
-	
+
 	public abstract void type();
 }
 
-	class Boeing extends Plane{
-		public void type() {
-			System.out.println("I am a Boeing plane!");
-		}
+class Boeing extends Plane {
+	public void type() {
+		System.out.println("I am a Boeing plane!");
 	}
+}

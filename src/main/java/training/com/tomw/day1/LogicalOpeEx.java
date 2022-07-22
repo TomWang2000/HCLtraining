@@ -7,11 +7,11 @@ public class LogicalOpeEx {
 		boolean b = false;
 		boolean c = true;
 		boolean d = false;
-		
+
 		System.out.println(a && b);
 		System.out.println(a && c);
 		System.out.println(d && b);
-		
+
 		System.out.println(a || b);
 		System.out.println(a || c);
 		System.out.println(d || b);
