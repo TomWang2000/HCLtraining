@@ -9,9 +9,9 @@ public class Prompt3 {
 			throw new UserDefinedException(4);
 
 		} catch (UserDefinedException e) {
-			
+
 			System.out.println(e);
-			
+
 		}
 	}
 
