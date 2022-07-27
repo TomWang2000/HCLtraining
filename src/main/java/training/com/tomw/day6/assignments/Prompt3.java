@@ -38,7 +38,7 @@ class SubClassApples implements Runnable {
 	}
 
 	public void run() {
-		while(apples.total != 0) {
+		while (apples.total != 0) {
 			apples.eat(20);
 			if (apples.total == 0) {
 				System.out.println("NO MORE APPLES");
