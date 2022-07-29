@@ -21,14 +21,14 @@ public class Prompt6 {
 			while (res.next()) {
 				System.out.println(res.getInt(1) + " " + res.getString(2));
 			}
-			
+
 			PreparedStatement PrepStat = conn.prepareStatement("insert into student values (?, ?)");
 			PrepStat.setInt(1, 100);
 			PrepStat.setString(2, "Random Person");
 			PrepStat.addBatch();
 			try {
 				PrepStat.executeBatch();
-			} catch (SQLException e){
+			} catch (SQLException e) {
 				e.getMessage();
 			}
 		} catch (SQLException e) {
